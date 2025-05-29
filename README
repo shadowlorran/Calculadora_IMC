@@ -1,0 +1,36 @@
+# Calculadora de IMC - (Java + Swing)
+
+E aí, Professor Alberane !!!
+
+Desenvolvi essa aplicação Java utilizando a biblioteca Swing para a interface gráfica, atendendo aos requisitos da atividade, **mas com um toque visual especial**. A interface foi customizada com cores, layout moderno e fontes personalizadas por mim.
+
+> **Importante:**  
+> Para facilitar o teste, os valores de entrada devem ser informados **sem ponto ou vírgula**, ou seja, números inteiros.  
+> Exemplo:
+> - Peso (kg): `85`  
+> - Altura (cm): `180`
+
+Com esses dados, o IMC será calculado corretamente conforme a fórmula oficial da [Wikipedia](https://pt.wikipedia.org/wiki/%C3%8Dndice_de_massa_corporal).
+
+---
+
+## Funcionalidades:
+
+- Leitura de peso e altura digitados pelo usuário
+- Cálculo automático do IMC com base na fórmula:
+  \[
+  \text{IMC} = \frac{\text{peso (kg)}}{\text{altura (m)}^2}
+  \]
+- Exibição do resultado com 2 casas decimais
+- Classificação do IMC conforme tabela da OMS:
+  - Abaixo do peso
+  - Peso normal
+  - Sobrepeso
+  - Obesidade Grau I
+  - Obesidade Grau II
+  - Obesidade Grau III (Mórbida)
+
+---
+
+
+## By Lorran T. Camilo
